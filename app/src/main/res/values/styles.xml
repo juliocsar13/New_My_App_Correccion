@@ -10,4 +10,7 @@
     <style name="SampleTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
     </style>
+   <!-- <style name="AppNumber_picker_Style" parent ="android:Widget.Button.N">
+        <item name="android:buttonStyle">@drawable/ic_action_arrow_top</item>
+    </style>-->
 </resources>
