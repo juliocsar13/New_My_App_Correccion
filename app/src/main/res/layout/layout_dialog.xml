@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Message"
+            android:textSize="20sp"
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:background="#ff63ff43"
+            android:layout_marginBottom="100dp" />
+
+        <EditText
+
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:maxLength="8"
+            android:inputType="text"
+
+            android:background="#ffffff"
+            android:id="@+id/editText" />
+
+        <ImageButton
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:text="Enviar"
+            android:background="#fff"
+            android:src="@drawable/ic_action_tick"
+            android:id="@+id/button8"
+            android:gravity="bottom"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -19,11 +19,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.layout_dialog);
 
-
-
-     findViewById(R.id.btnDark).setOnClickListener(new View.OnClickListener() {
+     /*findViewById(R.id.btnDark).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, DarkThemeActivity.class));
@@ -35,7 +33,7 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, activity_practice_theme.class));
             }
-        });
+        });*/
     }
 
 
