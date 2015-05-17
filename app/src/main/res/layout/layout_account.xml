@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:drawable="@android:color/transparent"
+    android:background="#fffff5f7">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_user"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:background="@mipmap/ic_action_user_data" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/ic_action_mail" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/ic_action_phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textColor="#ff000000"
+            android:id="@+id/txtFirstNameAccount"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toRightOf="@+id/imgstate"
+            android:layout_toEndOf="@+id/imgstate"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textColor="#ff000000"
+            android:id="@+id/txtEmailAccount"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignLeft="@+id/txtFirstNameAccount"
+            android:layout_alignStart="@+id/txtFirstNameAccount"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:textColor="#ff000000"
+            android:id="@+id/txtPhoneNumberAccount"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignLeft="@+id/txtEmailAccount"
+            android:layout_alignStart="@+id/txtEmailAccount"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/imgstate"
+            android:layout_below="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_marginTop="37dp"
+            android:background="@mipmap/btn_verde" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disponible"
+            android:id="@+id/textView"
+
+            android:layout_alignBottom="@+id/imgstate"
+            android:layout_alignLeft="@+id/txtPhoneNumberAccount"
+            android:layout_alignStart="@+id/txtPhoneNumberAccount"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alvaro Morales Caballero"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/txtFirstNameAccount"
+            android:layout_toRightOf="@+id/imgstate"
+            android:layout_toEndOf="@+id/imgstate"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="almasep_123@hotmail.com"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/txtEmailAccount"
+            android:layout_alignLeft="@+id/txtEmailAccount"
+            android:layout_alignStart="@+id/txtEmailAccount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="956886883"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/txtPhoneNumberAccount"
+            android:layout_alignLeft="@+id/txtPhoneNumberAccount"
+            android:layout_alignStart="@+id/txtPhoneNumberAccount" />
+    </RelativeLayout>

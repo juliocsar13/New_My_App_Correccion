@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 
 import net.simonvt.numberpicker.NumberPicker;
@@ -15,11 +16,16 @@ import net.simonvt.numberpicker.NumberPicker;
  */
 public class MainActivity extends ActionBarActivity {
 
-
+    /*Button btn_call;
+    Button btn_cancel;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_dialog);
+        setContentView(R.layout.layout_account);
+
+
+        /*btn_call.setEnabled(false);
+        btn_cancel.setEnabled(true);*/
 
      /*findViewById(R.id.btnDark).setOnClickListener(new View.OnClickListener() {
             @Override
