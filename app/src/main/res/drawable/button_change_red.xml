@@ -6,6 +6,7 @@
                 android:startColor="#ff137fae"
                 android:endColor="#ff1692c8"
                 android:angle="90"/>
+
             <corners
                 android:topLeftRadius="5dp"
                 android:topRightRadius="5dp"

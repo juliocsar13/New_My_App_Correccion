@@ -1,5 +1,6 @@
 package app.product.demarktec.new_my_app_correccion;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -11,17 +12,15 @@ import android.widget.Button;
 
 import net.simonvt.numberpicker.NumberPicker;
 
-/**
- * @author Simon Vig Therkildsen <simonvt@gmail.com>
- */
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends Activity {
 
     /*Button btn_call;
     Button btn_cancel;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_account);
+        setContentView(R.layout.layout_map_principal);
 
 
         /*btn_call.setEnabled(false);

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="68dp"
+    sothree:umanoShadowHeight="4dp">
+
+
+    <LinearLayout
+        android:layout_width ="match_parent"
+        android:layout_height ="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/house"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_sliding_usuario"/>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+
