@@ -7,14 +7,15 @@
 
     <Button
         android:id="@+id/btnDark"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dark themed" />
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Dark themed"
+        android:layout_gravity="center_vertical" />
 
-    <Button
+  <!--  <Button
         android:id="@+id/btnLight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Light themed" />
+        android:text="Light themed" />-->
 </LinearLayout>
 
