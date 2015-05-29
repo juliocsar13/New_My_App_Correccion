@@ -11,9 +11,12 @@ import android.widget.Button;
 
 
 import net.simonvt.numberpicker.NumberPicker;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout.PanelSlideListener;
+import com.sothree.slidinguppanel.SlidingUpPanelLayout.PanelState;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     /*Button btn_call;
     Button btn_cancel;*/
@@ -23,7 +26,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.layout_map_principal);
 
 
-        /*btn_call.setEnabled(false);
+
+    }
+    /*btn_call.setEnabled(false);
         btn_cancel.setEnabled(true);*/
 
      /*findViewById(R.id.btnDark).setOnClickListener(new View.OnClickListener() {
@@ -39,8 +44,6 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, activity_practice_theme.class));
             }
         });*/
-    }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
