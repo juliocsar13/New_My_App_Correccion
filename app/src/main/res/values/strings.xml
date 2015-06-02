@@ -63,9 +63,9 @@
         <string name="main.user.button2">Registrarse</string>
         <string name="Maincontent">Main Content</string>
         <string name="title_activity_dialog_details_service">DialogDetailsService</string>
-        <string name="dialog.user.name">Nombre:</string>
-        <string name="dialog.user.placa">Placa:</string>
-        <string name="dialog.user.phone">Teléfono:</string>
+        <string name="dialog.user.name">Nombre :</string>
+        <string name="dialog.user.placa">Placa :</string>
+        <string name="dialog.user.phone">Teléfono :</string>
         <string name="dialog.user.button">Aceptar</string>
         <string name="dialog.radar.search">Buscando Taxistas, no cierre la Aplicacion</string>
         <string name="dialog.radar.cancel">Cancelar solicitud</string>

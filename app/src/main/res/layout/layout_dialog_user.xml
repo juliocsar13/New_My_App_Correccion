@@ -111,52 +111,53 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:layout_gravity="center_horizontal"
-    android:background="#ff414240"
-    android:padding="2dp">
+    android:layout_width="320dp"
+    android:layout_height="230dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#ff414240">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="120dp"
             android:id="@+id/imageView5"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/photo_taxi" />
+            android:scaleType="fitXY"
+            android:src="@mipmap/photo_taxi"
+            android:layout_margin="2dp" />
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dialog.user.name"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textColor="#fffdfffb" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alvaro Morales"
+            android:text="Alvaro  Morales Caballero"
             android:id="@+id/txtNameTaxiDriverDialog"
-            android:layout_marginLeft="2dp"
-            android:layout_marginStart="2dp"
-            android:textSize="16sp"
-            android:textColor="#fffdfffb" />
+            android:textSize="15sp"
+            android:textColor="#fffdfffb"
+            android:layout_marginLeft="2dp" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dialog.user.placa"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textColor="#fffdfffb" />
         <TextView
             android:layout_width="wrap_content"
@@ -164,7 +165,7 @@
             android:text="EAK-1451131"
             android:id="@+id/txtAutoPlateTaxiDriverDialog"
             android:layout_marginLeft="2dp"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textColor="#fffdfffb" />
     </LinearLayout>
 
@@ -172,13 +173,14 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dialog.user.phone"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textColor="#fffdfffb" />
         <TextView
             android:layout_width="wrap_content"
@@ -186,13 +188,13 @@
             android:text="849332323"
             android:id="@+id/txtPhoneTaxiDriverDialog"
             android:layout_marginLeft="2dp"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textColor="#fffdfffb" />
     </LinearLayout>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:text="New Button"
             android:id="@+id/button"
             android:background="@drawable/button_call_blue"
