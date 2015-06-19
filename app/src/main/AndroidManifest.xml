@@ -29,7 +29,11 @@
         <activity
             android:name=".activity_practice_theme"
             android:label="@string/title_activity_activity_practice_theme"
-            android:theme="@style/SampleTheme.Light">
+            android:theme="@style/SampleTheme.Light" >
+        </activity>
+        <activity
+            android:name=".MainPassword"
+            android:label="@string/title_activity_main_password" >
         </activity>
     </application>
 

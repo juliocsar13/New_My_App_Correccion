@@ -1,128 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">-->
-   <!-- <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="222dp"
-        android:background="#ff404140">
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="111dp">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imgTaxiDriver"
-                android:src="@mipmap/photo_taxi"
-                android:scaleType="centerInside"/>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dialog.user.name"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Alvaro Morales"
-                    android:id="@+id/txtNameTaxiDriverDialog"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginStart="2dp"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dialog.user.placa"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="EAK-1451131"
-                    android:id="@+id/txtAutoPlateTaxiDriverDialog"
-                    android:layout_marginLeft="2dp"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dialog.user.phone"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="849332323"
-                    android:id="@+id/txtPhoneTaxiDriverDialog"
-                    android:layout_marginLeft="2dp"
-                    android:textSize="16sp"
-                    android:textColor="#fffdfffb" />
-            </LinearLayout>
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="50dp"
-                android:text="@string/dialog.user.button"
-                android:background="@drawable/button_call_blue"
-                android:id="@+id/btnAccept"
-                android:onClick="Aceptar"
-                android:layout_gravity="center_horizontal" />
-        </LinearLayout>-->
-
-
-    <!--</LinearLayout>-->
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_width="320dp"
-    android:layout_height="230dp"
-    android:layout_gravity="center_horizontal"
-    android:background="#ff414240">
+    android:gravity="center|center_horizontal">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="310dp"
+    android:layout_height="235dp"
+        android:background="@drawable/background_dialog">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:id="@+id/imageView5"
+            android:id="@+id/imgTaxiDriver"
             android:scaleType="fitXY"
             android:src="@mipmap/photo_taxi"
-            android:layout_margin="2dp" />
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -195,12 +91,13 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:text="New Button"
+            android:text="@string/dialog.user.button"
             android:id="@+id/button"
-            android:background="@drawable/button_call_blue"
+            android:background="@drawable/blue"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp" />
     </LinearLayout>
 
 
 
+</LinearLayout>

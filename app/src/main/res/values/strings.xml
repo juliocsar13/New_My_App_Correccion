@@ -100,6 +100,7 @@
     <string name ="condicion">Necesitamos su número para verificarlo, cuando  lo verifiquemos dentro de 2 horas
         recibirá un mensaje de texto donde  le enviaremos el código de verificación, y luego  lo pondremos en el
         campo para verificarlo.</string>
+    <string name="title_activity_main_password">MainPassword</string>
 
 
 </resources>

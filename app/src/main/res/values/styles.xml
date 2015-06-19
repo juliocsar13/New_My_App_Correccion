@@ -13,4 +13,64 @@
    <!-- <style name="AppNumber_picker_Style" parent ="android:Widget.Button.N">
         <item name="android:buttonStyle">@drawable/ic_action_arrow_top</item>
     </style>-->
+
+        <!-- Base application theme. -->
+
+
+
+        <style name="MyEdith_text">
+            <item name="android:gravity">center</item>
+            <item name="android:textColor">@color/black</item>
+            <item name="android:layout_gravity">center_horizontal</item>
+            <item name="android:singleLine">true</item>
+            <item name="android:ellipsize">start</item>
+            <item name="android:ems">10</item>
+            <item name="android:textSize">@dimen/font_large</item>
+        </style>
+        <style name="MyButton_design">
+            <item name="android:textColor">@color/white</item>
+            <item name="android:shadowColor">@color/black</item>
+            <item name="android:shadowRadius">1.7</item>
+            <item name="android:shadowDx">1</item>
+            <item name="android:shadowDy">2</item>
+        </style>
+        <style name="MyButton_register">
+
+            <item name="android:layout_gravity">center_horizontal</item>
+            <item name="android:gravity">center</item>
+            <item name="android:background">@drawable/blue</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:shadowColor">@color/black</item>
+            <item name="android:textSize">@dimen/font_large</item>
+            <item name="android:shadowRadius">1.7</item>
+            <item name="android:shadowDx">1</item>
+            <item name="android:shadowDy">2</item>
+        </style>
+        <style name="MyEdith_Register">
+            <item name="android:textColor">@color/black</item>
+            <item name="android:singleLine">true</item>
+            <item name="android:ellipsize">start</item>
+            <item name="android:ems">10</item>
+            <item name="android:maxLength">43</item>
+            <item name="android:gravity">center</item>
+            <item name="android:layout_marginTop">@dimen/spacing_tiny</item>
+            <item name="android:textSize">@dimen/font_large</item>
+            <item name="android:layout_gravity">center_horizontal</item>
+        </style>
+        <style name="MyButton_activity_verify_phone">
+            <item name="android:layout_width">@dimen/button_width_tall</item>
+            <item name="android:layout_height">@dimen/button_height_tall</item>
+            <item name="android:layout_gravity">center_horizontal</item>
+            <item name="android:gravity">center</item>
+            <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+            <item name="android:background">@drawable/green</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:shadowColor">@color/black</item>
+            <item name="android:textSize">@dimen/font_large</item>
+            <item name="android:shadowRadius">1.7</item>
+            <item name="android:shadowDx">1</item>
+            <item name="android:shadowDy">2</item>
+        </style>
+
+
 </resources>
