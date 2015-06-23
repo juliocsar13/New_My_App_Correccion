@@ -1,0 +1,80 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04dd4b"
+    android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_height_logo"
+            android:padding="@dimen/spacing_padding"
+            android:src="@mipmap/btn_verde"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:orientation="vertical">
+        <EditText
+            style="@style/MyEdith_text"
+            android:layout_height="@dimen/edit_height_tall"
+            android:layout_width="@dimen/edit_width_tall"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:hint="@string/main.user.email"
+            android:id="@+id/edtEmailLogin"
+            android:inputType="textEmailAddress" />
+        <EditText
+            style="@style/MyEdith_text"
+            android:layout_height= "@dimen/edit_height_tall"
+            android:layout_width="@dimen/edit_width_tall"
+            android:imeOptions="actionDone"
+            android:hint="@string/main.user.password"
+            android:inputType="textPassword"
+            android:id="@+id/edtPasswordLogin"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/spacing_normal">
+        <Button
+            style="@style/MyButton_design"
+            android:layout_width="@dimen/button_width_tall"
+            android:layout_height="@dimen/button_height_tall"
+            android:background="@drawable/blue"
+            android:text="@string/main.user.button1"
+            android:id="@+id/btnLogin"
+            android:textSize="@dimen/font_normal"
+            android:onClick="onLogin"/>
+
+        <Button
+            style="@style/MyButton_design"
+            android:layout_width="@dimen/button_width_tall"
+            android:layout_height="@dimen/button_height_tall"
+            android:text="@string/main.user.button2"
+            android:background="@drawable/green"
+            android:textSize="@dimen/font_normal"
+            android:id="@+id/btnRegister"
+            android:onClick="startRegisterActivity"
+            android:layout_marginTop="@dimen/spacing_small"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Contraseña"
+        android:textColor="@color/blue_light"
+        android:id="@+id/txtClikhable"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"/>
+
+</LinearLayout>

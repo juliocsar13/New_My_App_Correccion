@@ -72,7 +72,7 @@ public class RecoverPasswordActivity  extends SherlockActivity implements Recove
     }
 
     @OnClick(R.id.btnSendPassword)
-    public void showDialogConfirmPhone() {
+    public void showDialogConfirmEmail() {
         dialogConfirmPassword.setCancelable(false)
                 .setTitle("Advertencia")
                 .setMessage("¿Su email es el correcto " + edtPassword.getText().toString() + " ?")
@@ -113,7 +113,7 @@ public class RecoverPasswordActivity  extends SherlockActivity implements Recove
 
     @Override
     public void showDialogEmailError() {
-        Toast.makeText(this,"Por favor ingrese un email que se halla registrado",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Por favor ingrese un email, que se halla registrado",Toast.LENGTH_LONG).show();
     }
 
     @Override

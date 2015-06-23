@@ -26,13 +26,13 @@ public class RecoverPasswordInteractorImpl implements RecoverPasswordInteractor{
 
     OkHttpRequest request = new OkHttpRequest(Config.GETPASSWORD);
     @Override
-    public void sendPhone(final JSONObject jsonObject, Validation validator,final OnRecoverPasswordFinishedListener listener) {
+    public void sendEmail(final JSONObject jsonObject, Validation validator,final OnRecoverPasswordFinishedListener listener) {
         if(validator.isOnline()){
 
             boolean error=false;
 
             try {
-                if (TextUtils.isEmpty(jsonObject.getString("phone"))){
+                if (TextUtils.isEmpty(jsonObject.getString("email"))){
                     error =true;
                     listener.onEmptyEmailError();
                 }
@@ -75,10 +75,8 @@ public class RecoverPasswordInteractorImpl implements RecoverPasswordInteractor{
                                         } catch (JSONException e) {
                                             Log.e("JSONException", e.toString());
                                         }
-                                    else if (code == 500)
-                                        listener.onEmailError();
                                     else if (code == 503)
-                                        listener.onFailedSend();
+                                        listener.onErrorSend();
                                     else
                                         listener.onFailedSend();
                                 }

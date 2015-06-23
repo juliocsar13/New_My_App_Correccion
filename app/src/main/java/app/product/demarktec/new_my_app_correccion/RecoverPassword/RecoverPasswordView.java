@@ -15,7 +15,7 @@ public interface RecoverPasswordView {
 
     public void navigateToCode(String email);
 
-    public void showDialogConfirmPhone();
+    public void showDialogConfirmEmail();
 
     public void hideProgress();
 

@@ -9,5 +9,6 @@ import app.product.demarktec.akitaxi_usuario.Validation;
  */
 public interface RecoverPasswordInteractor {
 
-    public void sendPhone(JSONObject jsonObject, Validation validator, OnRecoverPasswordFinishedListener listener);
+    public void sendEmail(JSONObject jsonObject, Validation validator, OnRecoverPasswordFinishedListener listener);
+
 }
